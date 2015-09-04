@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /thanks/
+
+Sitemap: http://jere.me/sitemap.xml

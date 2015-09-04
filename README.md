@@ -1,12 +1,20 @@
-Stacks - Jekyll/gulp/autoprefixer/sourcemaps
+Jekyll/gulp/autoprefixer/sourcemaps
 ==================
+
+Elements:
+- jekyll
+- gulp
+- foundation
+- autoprefixer
+- bower
+- sass/sourcemaps
+
 Running gulp will build the "_site" folder on each save & reload the browser
 
 ## Setup
 After cloning the repo you'll need to install the jekyll, node packages & bower dependencies
 
 ### Jekyll
-If in vagrant you'll need to sudo
 ```
 gem install jekyll
 ```
@@ -26,9 +34,9 @@ The project is now ready to run.
 gulp
 ```
 
-# Moving to production server
+## Moving to production server
 
-## Production build
+### Production build
 ```
 gulp build
 ```
